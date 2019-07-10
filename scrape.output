@@ -1,0 +1,884 @@
+yarn run v1.12.3
+$ cd scripts && node ffgscrape.js && node ffgprocess.js && cd .. && yarn format
+Retrieving https://squadbuilder.fantasyflightgames.com/api/cards/
+Retrieving https://squadbuilder.fantasyflightgames.com/api/app-metadata/
+Writing to ffgmetadata.json
+Writing to ffgcards.json
+Reading ./ffgcards.json
+Reading ./ffgmetadata.json
+** Loaded Scraped Data **
+icon was missing.
+--New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png
+icon was missing.
+--New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport.png
+icon was missing.
+--New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png
+icon was missing.
+--New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Hyena.png
+Processing Red Squadron Veteran
+Removing empty caption
+Processing Cavern Angels Zealot
+Removing empty caption
+Processing Phoenix Squadron Pilot
+Removing empty caption
+Processing Blue Squadron Escort
+Removing empty caption
+Processing •Braylen Stramm
+Processing •Ten Numb
+Processing •Norra Wexley
+Processing Blade Squadron Veteran
+Removing empty caption
+Processing Green Squadron Pilot
+Removing empty caption
+Processing Bandit Squadron Pilot
+Removing empty caption
+Processing •Wullffwarro
+Processing •Lowhhrick
+Processing Kashyyyk Defender
+Removing empty caption
+Processing •Thane Kyrell
+Processing •Garven Dreis
+Processing •Jek Porkins
+Processing •Kullbee Sperado
+Processing •Biggs Darklighter
+Processing •Leevan Tenza
+Processing •Edrio Two Tubes
+Processing •Hera Syndulla
+Processing •Sabine Wren
+Processing •Ezra Bridger
+Processing •"Zeb" Orrelios
+Processing •"Dutch" Vander
+Processing Blue Squadron Pilot
+Removing empty caption
+Processing •Airen Cracken
+Processing •Lieutenant Blount
+Processing Tala Squadron Pilot
+Removing empty caption
+Processing •Horton Salm
+Processing •Evaan Verlaine
+Processing Gold Squadron Veteran
+Removing empty caption
+Processing Gray Squadron Bomber
+Removing empty caption
+Processing •Jake Farrell
+Processing •Arvel Crynyd
+Processing •Fenn Rau
+Processing •Ezra Bridger
+Change detected in ability
+--Existing:  While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.
+--New:       While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] /[Hit] results.
+Processing •"Zeb" Orrelios
+Processing •AP-5
+Processing •Jan Ors
+Processing •Kyle Katarn
+Processing •Roark Garnet
+Processing Rebel Scout
+Removing empty caption
+Processing •Ezra Bridger
+Processing •Sabine Wren
+Processing •Captain Rex
+Processing •"Zeb" Orrelios
+Processing •Corran Horn
+Processing •Gavin Darklighter
+Processing Rogue Squadron Escort
+Removing empty caption
+Processing Knave Squadron Escort
+Removing empty caption
+Processing •Bodhi Rook
+Processing •Saw Gerrera
+Processing •Cassian Andor
+Processing •Magva Yarro
+Processing •Benthic Two Tubes
+Processing •Heff Tobber
+Processing Blue Squadron Scout
+Removing empty caption
+Processing Partisan Renegade
+Removing empty caption
+Processing •Miranda Doni
+Processing •Esege Tuketu
+Processing Warden Squadron Pilot
+Removing empty caption
+Processing •Norra Wexley
+Processing •Garven Dreis
+Processing •Shara Bey
+Processing •Ibtisam
+Processing •Han Solo
+Processing •Lando Calrissian
+Processing •Chewbacca
+Processing Outer Rim Smuggler
+Removing empty caption
+Processing •Hera Syndulla
+Processing •Kanan Jarrus
+Processing •"Chopper"
+Processing Lothal Rebel
+Removing empty caption
+Processing •"Leebo"
+Processing Wild Space Fringer
+Removing empty caption
+Processing •"Mauler" Mithel
+Processing •"Howlrunner"
+Processing •"Scourge" Skutu
+Processing •Iden Versio
+Processing •Gideon Hask
+Processing •Del Meeko
+Processing •Seyn Marana
+Processing •Valen Rudor
+Processing •"Night Beast"
+Processing •"Wampa"
+Processing Black Squadron Ace
+Removing empty caption
+Processing Academy Pilot
+Removing empty caption
+Processing •Darth Vader
+Processing •Maarek Stele
+Processing •Ved Foslo
+Processing •Zertik Strom
+Processing Storm Squadron Ace
+Removing empty caption
+Processing Tempest Squadron Pilot
+Removing empty caption
+Processing •Grand Inquisitor
+Processing •Seventh Sister
+Processing Baron of the Empire
+Removing empty caption
+Processing Inquisitor
+Removing empty caption
+Processing •Soontir Fel
+Processing •Turr Phennir
+Processing Saber Squadron Ace
+Removing empty caption
+Processing Alpha Squadron Pilot
+Removing empty caption
+Processing •Tomax Bren
+Processing •Captain Jonus
+Processing •Major Rhymer
+Processing •"Deathfire"
+Processing Gamma Squadron Ace
+Removing empty caption
+Processing Scimitar Squadron Pilot
+Removing empty caption
+Processing •Major Vermeil
+Processing •Captain Feroph
+Processing •"Vizier"
+Processing Scarif Base Pilot
+Removing empty caption
+Processing •"Duchess"
+Processing •"Countdown"
+Processing •"Pure Sabacc"
+Processing Black Squadron Scout
+Removing empty caption
+Processing Planetary Sentinel
+Removing empty caption
+Processing •Rexler Brath
+Processing •Colonel Vessery
+Processing •Countess Ryad
+Processing Onyx Squadron Ace
+Removing empty caption
+Processing Delta Squadron Pilot
+Removing empty caption
+Processing •Lieutenant Kestal
+Processing •"Double Edge"
+Processing Onyx Squadron Scout
+Removing empty caption
+Processing Sienar Specialist
+Removing empty caption
+Processing •"Whisper"
+Processing •"Echo"
+Processing Sigma Squadron Ace
+Removing empty caption
+Processing Imdaar Test Pilot
+Removing empty caption
+Processing •Major Vynder
+Processing •Lieutenant Karsabi
+Processing Rho Squadron Pilot
+Removing empty caption
+Processing Nu Squadron Pilot
+Removing empty caption
+Processing •"Redline"
+Processing •"Deathrain"
+Processing Cutlass Squadron Pilot
+Removing empty caption
+Processing Patrol Leader
+Removing empty caption
+Processing •Boba Fett
+Processing •Emon Azzameen
+Processing •Kath Scarlet
+Processing •Koshka Frost
+Processing •Krassis Trelix
+Processing Bounty Hunter
+Removing empty caption
+Processing •Fenn Rau
+Processing •Old Teroch
+Processing •Joy Rekkoff
+Processing •Kad Solus
+Processing Skull Squadron Pilot
+Removing empty caption
+Processing Zealous Recruit
+Removing empty caption
+Processing •Constable Zuvio
+Change detected in caption
+--Existing:  Missing Sheriff of Nima Outpost
+--New:       Missing Sherriff of Niima Outpost
+Processing •Sarco Plank
+Change detected in shipAbility
+--Existing:  { name: 'Spacetug Tractor Array',
+  text:
+   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+--New:       { name: 'Spacetug Tractor Array',
+  text:
+   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+Processing •Unkar Plutt
+Change detected in shipAbility
+--Existing:  { name: 'Spacetug Tractor Array',
+  text:
+   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+--New:       { name: 'Spacetug Tractor Array',
+  text:
+   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+Processing Jakku Gunrunner
+Removing empty caption
+Change detected in shipAbility
+--Existing:  { name: 'Spacetug Tractor Array',
+  text:
+   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+--New:       { name: 'Spacetug Tractor Array',
+  text:
+   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+Processing •Kavil
+Processing •Drea Renthal
+Processing Hired Gun
+Removing empty caption
+Processing Crymorah Goon
+Removing empty caption
+Processing •N'dru Suhlak
+Processing •Kaa'to Leeachos
+Processing •Nashtah Pup
+Change detected in shipAbility
+--Existing:  { name: 'Escape Craft',
+  text:
+   'Setup: Requires the Hound\'s Tooth. You must begin the game docked with the Hound\'s Tooth.' }
+--New:       { name: 'Escape Craft',
+  text:
+   'Setup:Requires the Hound\'s Tooth. You must begin the game docked with the Hound\'s Tooth.' }
+Processing Black Sun Soldier
+Removing empty caption
+Processing Binayre Pirate
+Removing empty caption
+Processing •Palob Godalhi
+Processing •Torkil Mux
+Processing Spice Runner
+Removing empty caption
+Processing •Guri
+Processing •Dalan Oberos
+Change detected in ability
+--Existing:  After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.
+--New:       After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90º.
+Processing •Prince Xizor
+Processing Black Sun Assassin
+Removing empty caption
+Processing Black Sun Enforcer
+Removing empty caption
+Processing •Dace Bonearm
+Processing •Serissu
+Processing •Genesis Red
+Processing •Laetin A'shera
+Processing •Quinn Jast
+Processing •Inaldra
+Processing •Sunny Bounder
+Processing Tansarii Point Veteran
+Removing empty caption
+Processing Cartel Spacer
+Removing empty caption
+Processing •Talonbane Cobra
+Processing •Graz
+Processing •Viktor Hel
+Processing •Captain Jostero
+Processing Black Sun Ace
+Removing empty caption
+Processing Cartel Marauder
+Removing empty caption
+Processing •IG-88A
+Processing •IG-88B
+Processing •IG-88C
+Processing •IG-88D
+Processing •4-LOM
+Processing •Zuckuss
+Processing Gand Findsman
+Removing empty caption
+Processing •Captain Nym
+Processing •Sol Sixxa
+Processing Lok Revenant
+Removing empty caption
+Processing •Torani Kulda
+Processing •Dalan Oberos
+Processing Cartel Executioner
+Removing empty caption
+Processing •Bossk
+Processing •Moralo Eval
+Processing •Latts Razzi
+Processing Trandoshan Slaver
+Processing •Dengar
+Processing •Manaroo
+Processing •Tel Trevura
+Processing Contracted Scout
+Removing empty caption
+Processing •Ketsu Onyo
+Processing •Asajj Ventress
+Processing •Sabine Wren
+Processing Shadowport Hunter
+Removing empty caption
+Processing •Han Solo
+Processing •Lando Calrissian
+Processing •L3-37
+Processing Freighter Captain
+Removing empty caption
+Processing •Lando Calrissian
+Processing •Outer Rim Pioneer
+Processing •L3-37
+Processing •Autopilot Drone
+Processing •"Midnight"
+Processing •"Scorch"
+Processing •"Static"
+Processing •"Longshot"
+Processing •"Muse"
+Processing •"Null"
+Processing Omega Squadron Ace
+Removing empty caption
+Processing Zeta Squadron Pilot
+Removing empty caption
+Processing Epsilon Squadron Cadet
+Removing empty caption
+Processing •"Quickdraw"
+Processing •"Backdraft"
+Processing Omega Squadron Expert
+Removing empty caption
+Processing Zeta Squadron Survivor
+Removing empty caption
+Processing •Major Stridan
+Processing •Lieutenant Tavson
+Processing •Lieutenant Dormitz
+Processing Starkiller Base Pilot
+Removing empty caption
+Processing •Kylo Ren
+Processing •"Blackout"
+Processing First Order Test Pilot
+Removing empty caption
+Processing Sienar-Jaemus Engineer
+Removing empty caption
+Processing •Poe Dameron
+Processing •Ello Asty
+Processing •Nien Nunb
+Processing •Kare Kun
+Processing •Temmin Wexley
+Processing •Jessika Pava
+Processing •Joph Seastriker
+Processing Red Squadron Expert
+Removing empty caption
+Processing Blue Squadron Rookie
+Removing empty caption
+Processing •Han Solo
+Processing •Rey
+Processing •Chewbacca
+Processing Resistance Sympathizer
+Removing empty caption
+Processing •Finch Dallow
+Processing •Ben Teene
+Processing •Cat
+Processing Cobalt Squadron Bomber
+Removing empty caption
+Processing •L'ulo L'ampar
+Processing •Tallissan Lintra
+Processing •Greer Sonnel
+Processing •Zari Bangel
+Processing Green Squadron Expert
+Removing empty caption
+Processing Blue Squadron Recruit
+Removing empty caption
+Processing •Foreman Proach
+Processing •Ahhav
+Processing •Captain Seevor
+Processing •Overseer Yushyn
+Processing Mining Guild Surveyor
+Removing empty caption
+Processing Mining Guild Sentry
+Removing empty caption
+Processing •Edon Kappehl
+Processing •Vennie
+Processing •Lieutenant Bastian
+Processing •Jaycris Tubbs
+Processing Black Squadron Ace
+Removing empty caption
+Processing •Commander Malarus
+Processing •TN-3465
+Processing •Lieutenant Rivas
+Processing •"Recoil"
+Processing •"Avenger"
+Processing •Captain Cardinal
+Processing •Petty Officer Thanisson
+Processing •Anakin Skywalker
+Processing •Luminara Unduli
+Processing •Barriss Offee
+Processing •Ahsoka Tano
+Processing •Obi-Wan Kenobi
+Processing •Mace Windu
+Processing •Plo Koon
+Processing •Saesee Tiin
+Processing Jedi Knight
+Removing empty caption
+Processing •"Odd Ball"
+Processing •"Kickback"
+Processing •"Axe"
+Processing •"Swoop"
+Processing •"Tucker"
+Processing Blue Squadron Protector
+Removing empty caption
+Processing Gold Squadron Trooper
+Removing empty caption
+Processing •"Odd Ball"
+Processing •"Wolffe"
+Processing •"Jag"
+Processing •"Sinker"
+Processing Squad Seven Veteran
+Removing empty caption
+Processing 104th Battalion Pilot
+Removing empty caption
+Processing •General Grievous
+Processing •Wat Tambor
+Processing •Captain Sear
+Processing Skakoan Ace
+Removing empty caption
+Processing Feethan Ottraw Autopilot
+Removing empty caption
+Processing Separatist Drone
+Removing empty caption
+Processing Trade Federation Drone
+Removing empty caption
+Processing •Captain Kagi
+Processing •••Precise Hunter
+Processing •DFS-311
+Processing •Darth Maul
+Processing •Count Dooku
+Processing •0-66
+Processing Dark Courier
+Removing empty caption
+Processing •Colonel Jendon
+Processing •Ric Olié
+Change detected in ability
+--Existing:  While you defend or perform a primary attack, if the speed of yor revealed maneuver is higher than the enemy ship's, roll 1 additional die.
+--New:       While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.
+Processing •Anakin Skywalker
+caption was missing.
+--New:       Hero of Naboo
+Processing •Lieutenant Sai
+Processing •Padmé Amidala
+Processing •Dineé Ellberger
+Processing Omicron Group Pilot
+Removing empty caption
+Processing ••Naboo Handmaiden
+Processing Bravo Flight Officer
+Removing empty caption
+Change detected in text
+--Existing:  The volunteer pilots of the Royal Naboo Secrity Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.
+--New:       The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.
+Processing •Captain Oicunn
+Processing •DBS-404
+Processing •DBS-32C
+Processing •Rear Admiral Chiraneau
+Processing ••Baktoid Prototype
+Processing Separatist Bomber
+Removing empty caption
+Change detected in text
+--Existing:  The droid armies of the Separatists are callous to the plight of civilians and make not effort to limit collateral damage.
+--New:       The droid armies of the Separatists are callous to the plight of civilians and make no effort to limit collateral damage.
+Processing •DFS-081
+Processing •Cova Nell
+caption was missing.
+--New:       Evacuation Escort
+Processing •Pammich Nerro Goode
+Change detected in caption
+--Existing:  D-Qar Dispatcher
+--New:       D'Qar Dispatcher
+Processing ••Haor Chall Prototype
+Processing •Nodin Chavdri
+caption was missing.
+--New:       Insubordinate Insurgent
+Processing •Rose Tico
+Processing •••Bombardment Drone
+Processing •Finn
+Processing •Vi Moradi
+Processing Techno Union Bomber
+Removing empty caption
+Processing Crack Shot
+Processing Daredevil
+Processing Logistics Division Pilot
+Removing empty caption
+Change detected in text
+--Existing:  Without the support of the New Republic, mambers of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.
+--New:       Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.
+Processing Debris Gambit
+Processing Elusive
+Processing •BB-8
+caption was missing.
+--New:       Full of Surprises
+Processing Expert Handling
+** WARNING: Variable cost detected but no variable cost metadata for Expert Handling
+Processing Fearless
+Processing Intimidation
+Processing Juke
+Processing •Lone Wolf
+Processing Marksmanship
+Processing Outmaneuver
+Processing Predator
+Processing Ruthless
+Processing Saturation Salvo
+Processing Selfless
+Processing •Squad Leader
+** WARNING: Variable cost detected but no variable cost metadata for Squad Leader
+Processing Swarm Tactics
+** WARNING: Variable cost detected but no variable cost metadata for Swarm Tactics
+Processing Trick Shot
+Processing Heightened Perception
+Processing Instinctive Aim
+Processing Sense
+Processing Supernatural Reflexes
+** WARNING: Variable cost detected but no variable cost metadata for Supernatural Reflexes
+Processing Advanced Sensors
+Processing Collision Detector
+Processing Fire-Control System
+Processing Trajectory Simulator
+Processing Heavy Laser Cannon
+Processing Ion Cannon
+Processing Jamming Beam
+Processing Tractor Beam
+Processing Dorsal Turret
+Processing Ion Cannon Turret
+Processing Adv. Proton Torpedoes
+Processing Ion Torpedoes
+Processing Proton Torpedoes
+Processing Barrage Rockets
+Processing Cluster Missiles
+Processing Concussion Missiles
+Processing Homing Missiles
+Processing Ion Missiles
+Processing Proton Rockets
+Processing Freelance Slicer
+Processing GNK "Gonk" Droid
+Processing •Informant
+Processing Novice Technician
+Processing Perceptive Copilot
+Processing Seasoned Navigator
+** WARNING: Variable cost detected but no variable cost metadata for Seasoned Navigator
+Processing Tactical Officer
+Processing Hotshot Gunner
+Processing Skilled Bombardier
+Processing Veteran Tail Gunner
+Processing Veteran Turret Gunner
+Processing R2 Astromech
+** WARNING: Variable cost detected but no variable cost metadata for R2 Astromech
+Processing R3 Astromech
+Processing R4 Astromech
+Processing R5 Astromech
+Processing •Cloaking Device
+Processing Contraband Cybernetics
+Processing Deadman's Switch
+Processing Feedback Array
+Processing Inertial Dampeners
+** WARNING: Variable cost detected but no variable cost metadata for Inertial Dampeners
+Processing Rigged Cargo Chute
+Processing Bomblet Generator
+Processing Conner Nets
+Processing Proton Bombs
+Processing Proximity Mines
+Processing Seismic Charges
+Processing Ablative Plating
+Processing Advanced SLAM
+Change detected in ability
+--Existing:  After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
+--New:       After you perform a [Slam] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
+Processing Afterburners
+Processing Electronic Baffle
+Processing Engine Upgrade
+** WARNING: Variable cost detected but no variable cost metadata for Engine Upgrade
+Processing Hull Upgrade
+** WARNING: Variable cost detected but no variable cost metadata for Hull Upgrade
+Processing Munitions Failsafe
+Processing Shield Upgrade
+** WARNING: Variable cost detected but no variable cost metadata for Shield Upgrade
+Processing Static Discharge Vanes
+Change detected in ability
+--Existing:  If you would gain an ion or jam token, if you are not stressed, you may choose a ship at range 0-1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.
+--New:       Before you would gain 1 ion or jam token, if you are not stressed, you may choose a ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.
+Processing Stealth Device
+** WARNING: Variable cost detected but no variable cost metadata for Stealth Device
+Processing Tactical Scrambler
+Processing •Baze Malbus
+Processing •C-3PO
+Processing •Cassian Andor
+Processing •Chewbacca
+Processing •"Chopper"
+Processing •Hera Syndulla
+Processing •R2-D2
+Processing •Sabine Wren
+Processing •Wedge Antilles
+Processing •Luke Skywalker
+Processing •Saw Gerrera
+Processing •"Zeb" Orrelios
+Processing •Bistan
+Processing •Ezra Bridger
+Processing •Han Solo
+Processing •Luke Skywalker
+Processing •"Chopper"
+Processing •R2-D2
+** WARNING: Variable cost detected but no variable cost metadata for R2-D2
+Processing •R5-D8
+Processing •Ghost
+Processing •Millennium Falcon
+Processing •Moldy Crow
+Processing •Outrider
+Processing •Phantom
+Processing Pivot Wing (Open)
+Processing Pivot Wing (Closed)
+Change detected in name
+--Existing:  Pivot Wing
+--New:       Pivot Wing (Closed)
+Processing Servomotor S-foils (Open)
+Processing Servomotor S-foils (Closed)
+Change detected in name
+--Existing:  Servomotor S-foils
+--New:       Servomotor S-foils (Closed)
+Processing •Death Troopers
+Processing •Director Krennic
+Processing •Emperor Palpatine
+Processing •Grand Inquisitor
+Processing •Grand Moff Tarkin
+Processing ISB Slicer
+Processing •Minister Tua
+Processing •Moff Jerjerrod
+Processing •Seventh Sister
+Processing •Fifth Brother
+Processing •Dauntless
+Processing •ST-321
+Processing Os-1 Arsenal Loadout
+Processing Xg-1 Assault Configuration
+Processing •0-0-0
+Processing •4-LOM
+Processing •Boba Fett
+Processing •Cad Bane
+Processing •Cikatro Vizago
+Processing •IG-88D
+Processing •Jabba the Hutt
+Processing •Ketsu Onyo
+Processing •Latts Razzi
+Processing •Maul
+Processing •Unkar Plutt
+Processing •Zuckuss
+Processing •Bossk
+Processing •BT-1
+Processing •Dengar
+Processing •Greedo
+Processing •"Genius"
+Processing •R5-P8
+Processing •R5-TK
+Processing •Andrasta
+Processing •Havoc
+Processing •Hound's Tooth
+Processing IG-2000
+Processing •Marauder
+Processing •Mist Hunter
+Processing •Punishing One
+Processing •Shadow Caster
+Processing •Slave I
+Processing •Virago
+Processing Composure
+Processing •L3-37's Programming
+Processing •L3-37
+Processing •Tobias Beckett
+Processing •Qi'ra
+Processing •Han Solo
+Processing •Lando's Millennium Falcon
+Processing Advanced Optics
+Processing Hyperspace Tracking Data
+Processing Primed Thrusters
+** WARNING: Variable cost detected but no variable cost metadata for Primed Thrusters
+Processing Targeting Synchronizer
+Processing •General Hux
+Processing •Kylo Ren
+Processing •C-3PO
+Processing •Chewbacca
+Processing •Han Solo
+Processing •Rose Tico
+Processing •Finn
+Processing •Paige Tico
+Processing •Rey
+Processing •BB-8
+** WARNING: Variable cost detected but no variable cost metadata for BB-8
+Processing BB Astromech
+** WARNING: Variable cost detected but no variable cost metadata for BB Astromech
+Processing •M9-G8
+Processing •R2-HA
+Processing •R5-X3
+Processing •Black One
+Change detected in ability
+--Existing:  After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.
+--New:       After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.
+Processing •Rey's Millennium Falcon
+Processing Integrated S-foils (Closed)
+Change detected in name
+--Existing:  Integrated S-foils
+--New:       Integrated S-foils (Closed)
+Processing Integrated S-foils (Open)
+Processing Hate
+** WARNING: Variable cost detected but no variable cost metadata for Hate
+Processing Predictive Shot
+Processing Impervium Plating
+Processing Grappling Struts (Open)
+Change detected in ability
+--Existing:  You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
+--New:       You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90º in that direction. After you execute a maneuver, flip this card.
+Processing Brilliant Evasion
+Processing •K2-B4
+Processing •Darth Sidious
+Processing •Count Dooku
+Processing •General Grievous
+Processing •DRK-1 Probe Droids
+Processing •Lando Calrissian
+Processing •Scimitar
+Processing •••Discord Missiles
+Processing •Leia Organa
+Processing Dedicated
+Processing Battle Meditation
+** WARNING: Variable cost detected but no variable cost metadata for Battle Meditation
+Processing •Magva Yarro
+Processing R4-P Astromech
+Processing •R4-P17
+Processing •Nien Nunb
+Processing Delta-7B
+** WARNING: Variable cost detected but no variable cost metadata for Delta-7B
+Processing Calibrated Laser Targeting
+** WARNING: Variable cost detected but no variable cost metadata for Calibrated Laser Targeting
+Processing •Jyn Erso
+Processing •Kanan Jarrus
+Processing Spare Parts Canisters
+Processing •R4-P44
+Processing •Clone Commander Cody
+Processing Seventh Fleet Gunner
+Processing Synchronized Console
+Processing •Chancellor Palpatine
+Processing Passive Sensors
+cost was missing.
+--New:       { value: 3 }
+Processing Autoblasters
+cost was missing.
+--New:       { value: 2 }
+Processing Plasma Torpedoes
+cost was missing.
+--New:       { value: 9 }
+Processing •GA-97
+Processing •Korr Sella
+Change detected in ability
+--Existing:  After you execute a blue maneuver, remove all of your stress tokens.
+--New:       After you fully execute a blue maneuver, remove all of your stress tokens.
+Processing •Larma D'Acy
+Processing Grappling Struts (Closed)
+Change detected in name
+--Existing:  Grappling Struts
+--New:       Grappling Struts (Closed)
+Processing •PZ-4CO
+cost was missing.
+--New:       { value: 6 }
+Processing •R2-A6
+cost was missing.
+--New:       { value: 6 }
+Processing •Amilyn Holdo
+Processing •R2-C4
+cost was missing.
+--New:       { value: 5 }
+Processing •TA-175
+cost was missing.
+--New:       { value: 5 }
+Processing •Leia Organa
+Processing •Admiral Sloane
+Processing •Agent Kallus
+Processing •Ciena Ree
+Processing •Darth Vader
+Processing •Chewbacca
+Processing •Lando Calrissian
+Processing Agile Gunner
+Processing Fanatical
+Processing Pattern Analyzer
+Processing •Captain Phasma
+Processing •Petty Officer Thanisson
+Processing •Supreme Leader Snoke
+Processing Special Forces Gunner
+Processing Heroic
+Processing Ferrosphere Paint
+Processing Biohexacrypt Codes
+Processing Treacherous
+Processing •TV-94
+Processing •Kraken
+Processing Energy-Shell Charges
+Processing •Soulless One
+Processing •Diamond-Boron Missiles
+cost was missing.
+--New:       { value: 6 }
+Processing •Kaydel Connix
+Processing Obsidian Squadron Pilot
+Removing empty caption
+Processing •Electro-Proton Bomb
+cost was missing.
+--New:       { value: 14 }
+Processing Delayed Fuses
+cost was missing.
+--New:       { value: 1 }
+Processing Angled Deflectors
+** WARNING: Variable cost detected but no variable cost metadata for Angled Deflectors
+Change detected in text
+--Existing:  Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.
+--New:       Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.
+Processing Landing Struts (Closed)
+Change detected in name
+--Existing:  Landing Struts
+--New:       Landing Struts (Closed)
+Processing Landing Struts (Open)
+Processing •Dash Rendar
+** WARNING: Could not find cards with FFG IDs [ { id: 383, name: '•L3-37\'s Programming' } ]
+** Files Modified **
+data/pilots/rebel-alliance/sheathipede-class-shuttle.json
+data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
+data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
+data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
+data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
+data/pilots/scum-and-villainy/z-95-af4-headhunter.json
+data/pilots/scum-and-villainy/starviper-class-attack-platform.json
+data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
+data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
+data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
+data/pilots/separatist-alliance/hyena-class-droid-bomber.json
+data/pilots/resistance/resistance-transport.json
+data/pilots/resistance/resistance-transport.json
+data/pilots/resistance/resistance-transport.json
+data/pilots/resistance/resistance-transport.json
+data/pilots/resistance/resistance-transport-pod.json
+data/upgrades/modification.json
+data/upgrades/modification.json
+data/upgrades/configuration.json
+data/upgrades/configuration.json
+data/upgrades/title.json
+data/upgrades/configuration.json
+data/upgrades/configuration.json
+data/upgrades/sensor.json
+data/upgrades/cannon.json
+data/upgrades/torpedo.json
+data/upgrades/crew.json
+data/upgrades/configuration.json
+data/upgrades/crew.json
+data/upgrades/astromech.json
+data/upgrades/astromech.json
+data/upgrades/tactical-relay.json
+data/upgrades/missile.json
+data/upgrades/modification.json
+data/upgrades/modification.json
+data/upgrades/modification.json
+data/upgrades/configuration.json
+$ prettier --loglevel warn --write "data/**/*.json"
+Done in 4.76s.

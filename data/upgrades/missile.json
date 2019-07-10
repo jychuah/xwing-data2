@@ -238,6 +238,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg"
       }
     ],
-    "hyperspace": true
+    "hyperspace": true,
+    "cost": { "value": 6 }
   }
 ]

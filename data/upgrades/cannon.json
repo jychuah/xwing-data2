@@ -121,6 +121,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
-    ]
+    ],
+    "cost": { "value": 2 }
   }
 ]

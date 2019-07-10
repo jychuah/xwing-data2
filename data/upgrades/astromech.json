@@ -317,7 +317,8 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true
+    "hyperspace": true,
+    "cost": { "value": 5 }
   },
   {
     "name": "R4-P Astromech",
@@ -393,6 +394,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1d90c6b2f87d17c061e07a92373310b4.png"
       }
-    ]
+    ],
+    "cost": { "value": 6 }
   }
 ]
