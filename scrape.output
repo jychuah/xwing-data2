@@ -7,14 +7,6 @@ Writing to ffgcards.json
 Reading ./ffgcards.json
 Reading ./ffgmetadata.json
 ** Loaded Scraped Data **
-icon was missing.
---New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png
-icon was missing.
---New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport.png
-icon was missing.
---New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png
-icon was missing.
---New:       https://sb-cdn.fantasyflightgames.com/ship_types/I_Hyena.png
 Processing Red Squadron Veteran
 Removing empty caption
 Processing Cavern Angels Zealot
@@ -64,9 +56,6 @@ Processing •Jake Farrell
 Processing •Arvel Crynyd
 Processing •Fenn Rau
 Processing •Ezra Bridger
-Change detected in ability
---Existing:  While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.
---New:       While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] /[Hit] results.
 Processing •"Zeb" Orrelios
 Processing •AP-5
 Processing •Jan Ors
@@ -216,34 +205,17 @@ Removing empty caption
 Processing Zealous Recruit
 Removing empty caption
 Processing •Constable Zuvio
-Change detected in caption
---Existing:  Missing Sheriff of Nima Outpost
---New:       Missing Sherriff of Niima Outpost
+Change detected in shipAbility
+--Existing:  { name: 'Spacetug Tractor Array',
+  text:
+   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
+--New:       { name: 'Spacetug Tractor Array',
+  text:
+   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
 Processing •Sarco Plank
-Change detected in shipAbility
---Existing:  { name: 'Spacetug Tractor Array',
-  text:
-   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
---New:       { name: 'Spacetug Tractor Array',
-  text:
-   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
 Processing •Unkar Plutt
-Change detected in shipAbility
---Existing:  { name: 'Spacetug Tractor Array',
-  text:
-   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
---New:       { name: 'Spacetug Tractor Array',
-  text:
-   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
 Processing Jakku Gunrunner
 Removing empty caption
-Change detected in shipAbility
---Existing:  { name: 'Spacetug Tractor Array',
-  text:
-   'Action:  Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
---New:       { name: 'Spacetug Tractor Array',
-  text:
-   'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.' }
 Processing •Kavil
 Processing •Drea Renthal
 Processing Hired Gun
@@ -253,13 +225,6 @@ Removing empty caption
 Processing •N'dru Suhlak
 Processing •Kaa'to Leeachos
 Processing •Nashtah Pup
-Change detected in shipAbility
---Existing:  { name: 'Escape Craft',
-  text:
-   'Setup: Requires the Hound\'s Tooth. You must begin the game docked with the Hound\'s Tooth.' }
---New:       { name: 'Escape Craft',
-  text:
-   'Setup:Requires the Hound\'s Tooth. You must begin the game docked with the Hound\'s Tooth.' }
 Processing Black Sun Soldier
 Removing empty caption
 Processing Binayre Pirate
@@ -270,9 +235,6 @@ Processing Spice Runner
 Removing empty caption
 Processing •Guri
 Processing •Dalan Oberos
-Change detected in ability
---Existing:  After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.
---New:       After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90º.
 Processing •Prince Xizor
 Processing Black Sun Assassin
 Removing empty caption
@@ -463,12 +425,7 @@ Processing Dark Courier
 Removing empty caption
 Processing •Colonel Jendon
 Processing •Ric Olié
-Change detected in ability
---Existing:  While you defend or perform a primary attack, if the speed of yor revealed maneuver is higher than the enemy ship's, roll 1 additional die.
---New:       While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.
 Processing •Anakin Skywalker
-caption was missing.
---New:       Hero of Naboo
 Processing •Lieutenant Sai
 Processing •Padmé Amidala
 Processing •Dineé Ellberger
@@ -477,9 +434,6 @@ Removing empty caption
 Processing ••Naboo Handmaiden
 Processing Bravo Flight Officer
 Removing empty caption
-Change detected in text
---Existing:  The volunteer pilots of the Royal Naboo Secrity Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.
---New:       The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.
 Processing •Captain Oicunn
 Processing •DBS-404
 Processing •DBS-32C
@@ -487,21 +441,11 @@ Processing •Rear Admiral Chiraneau
 Processing ••Baktoid Prototype
 Processing Separatist Bomber
 Removing empty caption
-Change detected in text
---Existing:  The droid armies of the Separatists are callous to the plight of civilians and make not effort to limit collateral damage.
---New:       The droid armies of the Separatists are callous to the plight of civilians and make no effort to limit collateral damage.
 Processing •DFS-081
 Processing •Cova Nell
-caption was missing.
---New:       Evacuation Escort
 Processing •Pammich Nerro Goode
-Change detected in caption
---Existing:  D-Qar Dispatcher
---New:       D'Qar Dispatcher
 Processing ••Haor Chall Prototype
 Processing •Nodin Chavdri
-caption was missing.
---New:       Insubordinate Insurgent
 Processing •Rose Tico
 Processing •••Bombardment Drone
 Processing •Finn
@@ -512,16 +456,10 @@ Processing Crack Shot
 Processing Daredevil
 Processing Logistics Division Pilot
 Removing empty caption
-Change detected in text
---Existing:  Without the support of the New Republic, mambers of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.
---New:       Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.
 Processing Debris Gambit
 Processing Elusive
 Processing •BB-8
-caption was missing.
---New:       Full of Surprises
 Processing Expert Handling
-** WARNING: Variable cost detected but no variable cost metadata for Expert Handling
 Processing Fearless
 Processing Intimidation
 Processing Juke
@@ -533,15 +471,12 @@ Processing Ruthless
 Processing Saturation Salvo
 Processing Selfless
 Processing •Squad Leader
-** WARNING: Variable cost detected but no variable cost metadata for Squad Leader
 Processing Swarm Tactics
-** WARNING: Variable cost detected but no variable cost metadata for Swarm Tactics
 Processing Trick Shot
 Processing Heightened Perception
 Processing Instinctive Aim
 Processing Sense
 Processing Supernatural Reflexes
-** WARNING: Variable cost detected but no variable cost metadata for Supernatural Reflexes
 Processing Advanced Sensors
 Processing Collision Detector
 Processing Fire-Control System
@@ -567,14 +502,12 @@ Processing •Informant
 Processing Novice Technician
 Processing Perceptive Copilot
 Processing Seasoned Navigator
-** WARNING: Variable cost detected but no variable cost metadata for Seasoned Navigator
 Processing Tactical Officer
 Processing Hotshot Gunner
 Processing Skilled Bombardier
 Processing Veteran Tail Gunner
 Processing Veteran Turret Gunner
 Processing R2 Astromech
-** WARNING: Variable cost detected but no variable cost metadata for R2 Astromech
 Processing R3 Astromech
 Processing R4 Astromech
 Processing R5 Astromech
@@ -583,7 +516,6 @@ Processing Contraband Cybernetics
 Processing Deadman's Switch
 Processing Feedback Array
 Processing Inertial Dampeners
-** WARNING: Variable cost detected but no variable cost metadata for Inertial Dampeners
 Processing Rigged Cargo Chute
 Processing Bomblet Generator
 Processing Conner Nets
@@ -592,24 +524,14 @@ Processing Proximity Mines
 Processing Seismic Charges
 Processing Ablative Plating
 Processing Advanced SLAM
-Change detected in ability
---Existing:  After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
---New:       After you perform a [Slam] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
 Processing Afterburners
 Processing Electronic Baffle
 Processing Engine Upgrade
-** WARNING: Variable cost detected but no variable cost metadata for Engine Upgrade
 Processing Hull Upgrade
-** WARNING: Variable cost detected but no variable cost metadata for Hull Upgrade
 Processing Munitions Failsafe
 Processing Shield Upgrade
-** WARNING: Variable cost detected but no variable cost metadata for Shield Upgrade
 Processing Static Discharge Vanes
-Change detected in ability
---Existing:  If you would gain an ion or jam token, if you are not stressed, you may choose a ship at range 0-1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.
---New:       Before you would gain 1 ion or jam token, if you are not stressed, you may choose a ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.
 Processing Stealth Device
-** WARNING: Variable cost detected but no variable cost metadata for Stealth Device
 Processing Tactical Scrambler
 Processing •Baze Malbus
 Processing •C-3PO
@@ -629,7 +551,6 @@ Processing •Han Solo
 Processing •Luke Skywalker
 Processing •"Chopper"
 Processing •R2-D2
-** WARNING: Variable cost detected but no variable cost metadata for R2-D2
 Processing •R5-D8
 Processing •Ghost
 Processing •Millennium Falcon
@@ -638,14 +559,11 @@ Processing •Outrider
 Processing •Phantom
 Processing Pivot Wing (Open)
 Processing Pivot Wing (Closed)
-Change detected in name
---Existing:  Pivot Wing
---New:       Pivot Wing (Closed)
+Change detected in ability
+--Existing:  While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.
+--New:       While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90º or 180º. Before you activate, you may flip this card.
 Processing Servomotor S-foils (Open)
 Processing Servomotor S-foils (Closed)
-Change detected in name
---Existing:  Servomotor S-foils
---New:       Servomotor S-foils (Closed)
 Processing •Death Troopers
 Processing •Director Krennic
 Processing •Emperor Palpatine
@@ -699,7 +617,6 @@ Processing •Lando's Millennium Falcon
 Processing Advanced Optics
 Processing Hyperspace Tracking Data
 Processing Primed Thrusters
-** WARNING: Variable cost detected but no variable cost metadata for Primed Thrusters
 Processing Targeting Synchronizer
 Processing •General Hux
 Processing •Kylo Ren
@@ -711,30 +628,18 @@ Processing •Finn
 Processing •Paige Tico
 Processing •Rey
 Processing •BB-8
-** WARNING: Variable cost detected but no variable cost metadata for BB-8
 Processing BB Astromech
-** WARNING: Variable cost detected but no variable cost metadata for BB Astromech
 Processing •M9-G8
 Processing •R2-HA
 Processing •R5-X3
 Processing •Black One
-Change detected in ability
---Existing:  After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.
---New:       After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.
 Processing •Rey's Millennium Falcon
 Processing Integrated S-foils (Closed)
-Change detected in name
---Existing:  Integrated S-foils
---New:       Integrated S-foils (Closed)
 Processing Integrated S-foils (Open)
 Processing Hate
-** WARNING: Variable cost detected but no variable cost metadata for Hate
 Processing Predictive Shot
 Processing Impervium Plating
 Processing Grappling Struts (Open)
-Change detected in ability
---Existing:  You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
---New:       You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90º in that direction. After you execute a maneuver, flip this card.
 Processing Brilliant Evasion
 Processing •K2-B4
 Processing •Darth Sidious
@@ -747,15 +652,12 @@ Processing •••Discord Missiles
 Processing •Leia Organa
 Processing Dedicated
 Processing Battle Meditation
-** WARNING: Variable cost detected but no variable cost metadata for Battle Meditation
 Processing •Magva Yarro
 Processing R4-P Astromech
 Processing •R4-P17
 Processing •Nien Nunb
 Processing Delta-7B
-** WARNING: Variable cost detected but no variable cost metadata for Delta-7B
 Processing Calibrated Laser Targeting
-** WARNING: Variable cost detected but no variable cost metadata for Calibrated Laser Targeting
 Processing •Jyn Erso
 Processing •Kanan Jarrus
 Processing Spare Parts Canisters
@@ -765,37 +667,20 @@ Processing Seventh Fleet Gunner
 Processing Synchronized Console
 Processing •Chancellor Palpatine
 Processing Passive Sensors
-cost was missing.
---New:       { value: 3 }
+Change detected in ability
+--Existing:  Action: Spend 1 [Charge]. You can only perform this action in your perform action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Coordinate] or [Lock] action.
+--New:       Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.
 Processing Autoblasters
-cost was missing.
---New:       { value: 2 }
 Processing Plasma Torpedoes
-cost was missing.
---New:       { value: 9 }
 Processing •GA-97
 Processing •Korr Sella
-Change detected in ability
---Existing:  After you execute a blue maneuver, remove all of your stress tokens.
---New:       After you fully execute a blue maneuver, remove all of your stress tokens.
 Processing •Larma D'Acy
 Processing Grappling Struts (Closed)
-Change detected in name
---Existing:  Grappling Struts
---New:       Grappling Struts (Closed)
 Processing •PZ-4CO
-cost was missing.
---New:       { value: 6 }
 Processing •R2-A6
-cost was missing.
---New:       { value: 6 }
 Processing •Amilyn Holdo
 Processing •R2-C4
-cost was missing.
---New:       { value: 5 }
 Processing •TA-175
-cost was missing.
---New:       { value: 5 }
 Processing •Leia Organa
 Processing •Admiral Sloane
 Processing •Agent Kallus
@@ -819,8 +704,9 @@ Processing •Kraken
 Processing Energy-Shell Charges
 Processing •Soulless One
 Processing •Diamond-Boron Missiles
-cost was missing.
---New:       { value: 6 }
+Change detected in ability
+--Existing:  Attack ([Lock]): Spend 1 [Calculate]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.
+--New:       Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.
 Processing •Kaydel Connix
 Processing Obsidian Squadron Pilot
 Removing empty caption
@@ -828,57 +714,21 @@ Processing •Electro-Proton Bomb
 cost was missing.
 --New:       { value: 14 }
 Processing Delayed Fuses
-cost was missing.
---New:       { value: 1 }
+Change detected in ability
+--Existing:  After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.
+--New:       After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.
 Processing Angled Deflectors
 ** WARNING: Variable cost detected but no variable cost metadata for Angled Deflectors
-Change detected in text
---Existing:  Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.
---New:       Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.
 Processing Landing Struts (Closed)
-Change detected in name
---Existing:  Landing Struts
---New:       Landing Struts (Closed)
 Processing Landing Struts (Open)
 Processing •Dash Rendar
 ** WARNING: Could not find cards with FFG IDs [ { id: 383, name: '•L3-37\'s Programming' } ]
 ** Files Modified **
-data/pilots/rebel-alliance/sheathipede-class-shuttle.json
 data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
-data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
-data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
-data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json
-data/pilots/scum-and-villainy/z-95-af4-headhunter.json
-data/pilots/scum-and-villainy/starviper-class-attack-platform.json
-data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
-data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
-data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json
-data/pilots/separatist-alliance/hyena-class-droid-bomber.json
-data/pilots/resistance/resistance-transport.json
-data/pilots/resistance/resistance-transport.json
-data/pilots/resistance/resistance-transport.json
-data/pilots/resistance/resistance-transport.json
-data/pilots/resistance/resistance-transport-pod.json
-data/upgrades/modification.json
-data/upgrades/modification.json
-data/upgrades/configuration.json
-data/upgrades/configuration.json
-data/upgrades/title.json
-data/upgrades/configuration.json
 data/upgrades/configuration.json
 data/upgrades/sensor.json
-data/upgrades/cannon.json
-data/upgrades/torpedo.json
-data/upgrades/crew.json
-data/upgrades/configuration.json
-data/upgrades/crew.json
-data/upgrades/astromech.json
-data/upgrades/astromech.json
-data/upgrades/tactical-relay.json
 data/upgrades/missile.json
 data/upgrades/modification.json
 data/upgrades/modification.json
-data/upgrades/modification.json
-data/upgrades/configuration.json
 $ prettier --loglevel warn --write "data/**/*.json"
-Done in 4.76s.
+Done in 4.66s.
