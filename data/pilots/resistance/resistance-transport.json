@@ -43,22 +43,10 @@
     }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" },
+    { "difficulty": "Red", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -93,11 +81,13 @@
       "hyperspace": true,
       "cost": 36,
       "slots": [
+        "Tech",
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
         "Astromech",
-        "Modification",
-        "Title",
-        "Configuration",
-        "Tech"
+        "Modification"
       ],
       "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.",
       "ffg": 570,
@@ -112,11 +102,13 @@
       "hyperspace": true,
       "cost": 36,
       "slots": [
+        "Tech",
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
         "Astromech",
-        "Modification",
-        "Title",
-        "Configuration",
-        "Tech"
+        "Modification"
       ],
       "ability": "After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.",
       "ffg": 571,
@@ -133,15 +125,18 @@
       "hyperspace": true,
       "cost": 32,
       "slots": [
+        "Tech",
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
         "Astromech",
-        "Modification",
-        "Title",
-        "Configuration",
-        "Tech"
+        "Modification"
       ],
       "ffg": 572,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png"
     }
-  ]
+  ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport.png"
 }

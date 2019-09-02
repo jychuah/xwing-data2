@@ -276,9 +276,7 @@
         "title": "Static Discharge Vanes",
         "type": "Modification",
         "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose a ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
-        "slots": [
-          "Modification"
-        ],
+        "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
         "ffg": 300
@@ -427,14 +425,9 @@
       {
         "title": "Spare Parts Canisters",
         "type": "Modification",
-        "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades.  Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
-        "slots": [
-          "Modification"
-        ],
+        "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
+        "charges": { "value": 1, "recovers": 0 },
+        "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/79d9f2b2bc32bd78ab67dc82eece696a.png",
         "ffg": 550,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg"
@@ -460,27 +453,29 @@
       {
         "title": "Delayed Fuses",
         "type": "Modification",
-        "ability": "After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.",
-        "slots": [
-          "Modification"
-        ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/93/70/93702f17-5771-4460-8d22-b99566061306/swz41_delayed-fuses.png",
-        "ffg": 592
+        "ability": "After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.",
+        "slots": ["Modification"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4572ece39224eeaf2dfce2770b96f919.png",
+        "ffg": 592,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg"
       }
     ],
     "hyperspace": true,
-    "cost": {
-      "value": 1
-    }
+    "cost": { "value": 1 }
   },
   {
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
     "hyperspace": true,
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 9, "1": 6, "2": 3, "3": 3 }
+    },
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
-        "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
+        "text": "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
         "title": "Angled Deflectors",
         "type": "Modification",
         "slots": [
@@ -509,17 +504,9 @@
           }
         ],
         "ffg": 593,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png"
       }
-    ],
-    "cost": {
-      "variable": "agility",
-      "values": {
-        "0": 9,
-        "1": 6,
-        "2": 3,
-        "3": 3
-      }
-    }
+    ]
   }
 ]
