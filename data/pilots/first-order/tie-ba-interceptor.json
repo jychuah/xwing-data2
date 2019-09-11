@@ -1,5 +1,5 @@
 {
-  "name": "TIE/ba Baron Space Superiority Interceptor",
+  "name": "TIE/ba Interceptor",
   "xws": "tiebainterceptor",
   "ffg": 6666666,
   "size": "Small",
@@ -67,9 +67,7 @@
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": [
-        "Talent"
-      ],
+      "slots": ["Talent"],
       "image": "",
       "artwork": "",
       "ffg": 6666666,

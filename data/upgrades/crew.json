@@ -16,17 +16,9 @@
         "ffg": 307
       }
     ],
-    "cost": {
-      "value": 1
-    },
-    "restrictions": [
-      {
-        "factions": [
-          "Rebel Alliance"
-        ]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -45,17 +37,9 @@
         "ffg": 318
       }
     ],
-    "cost": {
-      "value": 1
-    },
-    "restrictions": [
-      {
-        "factions": [
-          "Rebel Alliance"
-        ]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "0-0-0",
@@ -802,17 +786,9 @@
         "ffg": 308
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "factions": [
-          "Rebel Alliance"
-        ]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "IG-88D",
@@ -997,17 +973,9 @@
         "ffg": 310
       }
     ],
-    "cost": {
-      "value": 12
-    },
-    "restrictions": [
-      {
-        "factions": [
-          "Rebel Alliance"
-        ]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 12 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Ketsu Onyo",
@@ -1189,17 +1157,9 @@
         "ffg": 360
       }
     ],
-    "cost": {
-      "value": 7
-    },
-    "restrictions": [
-      {
-        "factions": [
-          "Scum and Villainy"
-        ]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 7 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Leia Organa",
@@ -1308,7 +1268,7 @@
         ]
       }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Minister Tua",
@@ -2272,9 +2232,24 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/11c5bdf18a62dc43bdda0834026dace2.png"
       }
+    ]
+  },
+  {
+    "name": "C-3PO",
+    "sides": [
+      {
+        "ffg": 616,
+        "title": "C-3PO",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f64417de71053f39ded8886b72184819.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01e1a3b43aee6c564662825cadcd3f22.png",
+        "ability": "While you defend, if you are calculating, you may reroll 1 defense die. After you perform a [Calculate] action, gain 1 calculate token.",
+        "slots": ["Crew"],
+        "type": "Crew"
+      }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 8 },
+    "limited": 1,
+    "hyperspace": true,
+    "xws": "c3po-republic"
   }
 ]
