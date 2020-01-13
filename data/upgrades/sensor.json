@@ -16,10 +16,8 @@
         "ffg": 252
       }
     ],
-    "cost": {
-      "value": 10
-    },
-    "hyperspace": true
+    "cost": { "value": 10 },
+    "hyperspace": false
   },
   {
     "name": "Collision Detector",
@@ -42,10 +40,8 @@
         "ffg": 253
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "hyperspace": false
   },
   {
     "name": "Fire-Control System",
@@ -86,10 +82,8 @@
         "ffg": 255
       }
     ],
-    "cost": {
-      "value": 10
-    },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "hyperspace": false
   },
   {
     "name": "Passive Sensors",

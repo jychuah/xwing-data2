@@ -130,7 +130,7 @@
       "initiative": 2,
       "limited": 1,
       "caption": "Big Deal",
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 29,
       "slots": [
         "Talent",

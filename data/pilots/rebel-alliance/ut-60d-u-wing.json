@@ -59,7 +59,7 @@
       "caption": "Cavern Angels Marksman",
       "initiative": 2,
       "limited": 1,
-      "cost": 47,
+      "cost": 46,
       "xws": "benthictwotubes",
       "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png",
@@ -73,7 +73,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg",
       "ffg": 58,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Blue Squadron Scout",
@@ -86,14 +86,14 @@
       "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg",
       "ffg": 60,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Bodhi Rook",
       "caption": "Imperial Defector",
       "initiative": 4,
       "limited": 1,
-      "cost": 49,
+      "cost": 48,
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png",
@@ -107,7 +107,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg",
       "ffg": 54,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Cassian Andor",
@@ -128,14 +128,14 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg",
       "ffg": 56,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Heff Tobber",
       "caption": "Blue Eight",
       "initiative": 2,
       "limited": 1,
-      "cost": 45,
+      "cost": 44,
       "xws": "hefftobber",
       "ability": "After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_59.png",
@@ -149,7 +149,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg",
       "ffg": 59,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Magva Yarro",
@@ -171,7 +171,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg",
       "ffg": 57,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Partisan Renegade",
@@ -191,7 +191,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg",
       "ffg": 61,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Saw Gerrera",
@@ -219,29 +219,30 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg",
       "ffg": 55,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "K-2SO",
       "caption": "Cassian Said I Had To",
       "initiative": 3,
       "limited": 1,
-      "cost": 666666,
       "xws": "k2so",
       "ability": "After you gain a stress token, gain 1 calculate token.",
-      "image": "",
       "slots": [
         "Talent",
         "Sensor",
         "Crew",
         "Crew",
-        "Illicit",
         "Modification",
         "Configuration"
       ],
-      "artwork": "",
-      "ffg": 666666,
-      "hyperspace": false
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
+      "hyperspace": false,
+      "cost": 46
     }
   ]
 }

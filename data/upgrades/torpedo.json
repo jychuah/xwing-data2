@@ -60,10 +60,8 @@
         "ffg": 263
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "hyperspace": false
   },
   {
     "name": "Proton Torpedoes",

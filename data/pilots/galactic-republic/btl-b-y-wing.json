@@ -47,7 +47,7 @@
       },
       "hyperspace": true,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/84e5bef1597b232a20e52e1aa28a4c7e.jpg",
-      "cost": 35,
+      "cost": 32,
       "ffg": 602,
       "slots": [
         "Talent",
@@ -68,6 +68,7 @@
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": true,
       "caption": "Hero of the Republic",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg",
@@ -94,6 +95,12 @@
       "limited": 1,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/90c3f9aac7f44e4a6a860c81f93aae99.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b37b960f2e79ab5eb905bc3593de8961.png",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Reload" }
+      ],
       "shipAbility": {
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
@@ -126,7 +133,7 @@
       "ffg": 597,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b260355bd12266e08ff25ec16d278fe.png",
-      "ability": "After you execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
       "slots": [
         "Talent",
         "Turret",
@@ -198,12 +205,12 @@
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "caption": "Payload Specialist",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/026f989543c030d7c8e6757a9aab7a68.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8ac74252d260a910a7990e6e806aa612.png",
-      "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb or mine at range 0-1 of it.",
-      "cost": 34,
+      "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
+      "cost": 32,
       "ffg": 601,
       "slots": [
         "Turret",
@@ -227,7 +234,7 @@
       "hyperspace": true,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e91e0d3a30e85c878f7493360d1b668f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/692a1f1d4b5f5370dad7cacf2f19d699.png",
-      "cost": 33,
+      "cost": 30,
       "ffg": 603,
       "slots": [
         "Turret",
