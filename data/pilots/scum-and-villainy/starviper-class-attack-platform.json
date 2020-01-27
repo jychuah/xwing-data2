@@ -23,47 +23,22 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Boost"
     }
   ],
@@ -81,13 +56,7 @@
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
       "ffg": 181,
       "hyperspace": false
@@ -104,12 +73,7 @@
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
-      "slots": [
-        "Sensor",
-        "Torpedo",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
       "ffg": 182,
       "hyperspace": false
@@ -121,19 +85,13 @@
       "limited": 1,
       "cost": 54,
       "xws": "dalanoberos-starviperclassattackplatform",
-      "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90º.",
+      "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png",
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
       "ffg": 179,
       "hyperspace": false
@@ -148,28 +106,16 @@
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png",
       "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
         {
           "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Calculate"
-          },
+          "linked": { "difficulty": "Red", "type": "Calculate" },
           "type": "Barrel Roll"
         },
         {
           "difficulty": "White",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Calculate"
-          },
+          "linked": { "difficulty": "Red", "type": "Calculate" },
           "type": "Boost"
         }
       ],
@@ -177,13 +123,7 @@
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
       "ffg": 178,
       "hyperspace": false
@@ -201,13 +141,7 @@
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
       "ffg": 180,
       "hyperspace": false

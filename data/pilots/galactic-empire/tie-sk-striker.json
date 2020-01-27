@@ -23,33 +23,14 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEStriker.png",
   "pilots": [
@@ -78,7 +59,7 @@
       "limited": 1,
       "cost": 42,
       "xws": "duchess",
-      "ability": "You may choose not to use your Adaptive Ailerons.  You may use your Adaptive Ailerons even while stressed.",
+      "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_117.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
@@ -154,7 +135,10 @@
       "hyperspace": true,
       "slots": ["Talent", "Gunner", "Device", "Modification"],
       "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device.",
-      "cost": 35
+      "cost": 35,
+      "ffg": 633,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg",
+      "image": null
     }
   ]
 }

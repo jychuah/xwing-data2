@@ -62,10 +62,10 @@
       "hyperspace": false
     },
     {
-      "name": "Wullffwarro",
+      "name": "��Wullffwarro",
       "caption": "Wookiee Chief",
       "initiative": 4,
-      "limited": 1,
+      "limited": 0,
       "cost": 56,
       "xws": "wullffwarro",
       "ability": "While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.",

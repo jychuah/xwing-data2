@@ -68,19 +68,12 @@
       "xws": "anakinskywalker-nabooroyaln1starfighter",
       "hyperspace": true,
       "cost": 41,
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
       "force": {
         "value": 1,
         "recovers": 1,
-        "side": [
-          "light"
-        ]
+        "side": ["light"]
       },
       "shipAbility": {
         "name": "Full Throttle",
@@ -121,12 +114,7 @@
       "caption": "Aggressive Negotiator",
       "hyperspace": true,
       "cost": 45,
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).",
       "ffg": 559,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg",
@@ -144,12 +132,7 @@
       },
       "hyperspace": true,
       "cost": 38,
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
       "ffg": 560,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg",
@@ -183,9 +166,7 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "hyperspace": true,
-      "conditions": [
-        "decoyed"
-      ],
+      "conditions": ["decoyed"],
       "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.",
       "cost": 42,
       "slots": ["Sensor", "Torpedo", "Astromech"],

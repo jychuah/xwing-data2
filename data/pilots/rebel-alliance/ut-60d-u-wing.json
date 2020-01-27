@@ -20,37 +20,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 5
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_U-wing.png",
   "pilots": [
@@ -242,7 +220,10 @@
         { "difficulty": "Red", "type": "Coordinate" }
       ],
       "hyperspace": false,
-      "cost": 46
+      "cost": 46,
+      "ffg": 629,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg",
+      "image": null
     }
   ]
 }

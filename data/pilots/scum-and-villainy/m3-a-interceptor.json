@@ -23,41 +23,16 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scyk.png",
   "pilots": [
@@ -216,7 +191,10 @@
       "hyperspace": true,
       "slots": ["Modification"],
       "ability": "After you defend, each other ship at range 0 suffers 1 [Critical Hit] damage.",
-      "cost": 28
+      "cost": 28,
+      "ffg": 636,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg",
+      "image": null
     }
   ]
 }

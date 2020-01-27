@@ -23,37 +23,15 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Z-95.png",
   "pilots": [
@@ -121,7 +99,7 @@
       "ability": "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth.",
       "shipAbility": {
         "name": "Escape Craft",
-        "text": "Setup:Requires the Hound's Tooth. You must begin the game docked with the Hound's Tooth."
+        "text": "Setup: Requires the Hound's Tooth. You must begin the game docked with the Hound's Tooth."
       },
       "slots": ["Missile", "Illicit", "Modification"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_171.png",
@@ -142,7 +120,10 @@
       },
       "slots": ["Talent", "Missile", "Illicit", "Modification"],
       "hyperspace": false,
-      "cost": 29
+      "cost": 29,
+      "ffg": 635,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/48cf03ca0e16baf2f506829f20517b83.jpg",
+      "image": null
     }
   ]
 }

@@ -9,10 +9,7 @@
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Bomblet",
           "type": "Bomb",
@@ -36,10 +33,7 @@
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "device": {
           "name": "Conner Net",
           "type": "Mine",
@@ -64,10 +58,7 @@
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
         "slots": ["Device"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Proton Bomb",
           "type": "Bomb",
@@ -77,9 +68,7 @@
         "ffg": 394
       }
     ],
-    "cost": {
-      "value": 5
-    },
+    "cost": { "value": 5 },
     "hyperspace": true
   },
   {
@@ -92,10 +81,7 @@
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Proximity Mine",
           "type": "Mine",
@@ -120,10 +106,7 @@
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
         "slots": ["Device"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Seismic Charge",
           "type": "Bomb",
@@ -133,9 +116,7 @@
         "ffg": 396
       }
     ],
-    "cost": {
-      "value": 3
-    },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
@@ -149,24 +130,15 @@
         "ability": "During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's [Charge] cannot be recovered.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/44556cd042e536b41e7e89850e13081a.png",
         "slots": ["Device"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "DRK-1 Probe Droid",
           "type": "Remote",
           "effect": "While a friendly ship locks an object or jams an enemy ship, it may measure range from you. After an enemy ship overlaps you, that ship rolls 1 attack die. On a [Focus] result, you suffer 1 [Hit] damage. System Phase: At your initiative, you may relocate useing a [2 [Bank Left]], [2 [Straight]], or [2 [Bank Right]] template.",
           "initiative": 0,
           "stats": [
-            {
-              "type": "agility",
-              "value": 3
-            },
-            {
-              "type": "hull",
-              "value": 1
-            }
+            { "type": "agility", "value": 3 },
+            { "type": "hull", "value": 1 }
           ],
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/a7/d1a70245-95d9-4d20-931f-3cadd8a11ed8/swz30_probe-card.png"
         },
@@ -209,7 +181,15 @@
     "xws": "clustermines",
     "hyperspace": true,
     "sides": [
-      { "title": "Cluster Mines", "type": "Device", "slots": ["Device"] }
+      {
+        "title": "Cluster Mines",
+        "type": "Device",
+        "slots": ["Device"],
+        "ffg": 648,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
+        "image": null,
+        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered."
+      }
     ],
     "cost": { "value": 8 }
   },
@@ -218,7 +198,17 @@
     "limited": 0,
     "xws": "ionbombs",
     "hyperspace": true,
-    "sides": [{ "title": "Ion Bombs", "type": "Device", "slots": ["Device"] }],
+    "sides": [
+      {
+        "title": "Ion Bombs",
+        "type": "Device",
+        "slots": ["Device"],
+        "ffg": 649,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
+        "image": null,
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template."
+      }
+    ],
     "cost": { "value": 6 }
   }
 ]

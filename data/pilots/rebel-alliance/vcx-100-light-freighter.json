@@ -24,37 +24,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 4
-    },
-    {
-      "type": "agility",
-      "value": 0
-    },
-    {
-      "type": "hull",
-      "value": 10
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 4 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 10 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reinforce"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Reinforce" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Ghost.png",
   "pilots": [
@@ -68,18 +46,9 @@
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_75.png",
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Reinforce"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Reinforce" }
       ],
       "shipAbility": {
         "name": "Tail Gun",
@@ -136,11 +105,7 @@
       "xws": "kananjarrus",
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": ["light"]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
@@ -209,7 +174,10 @@
         "Title"
       ],
       "ability": "While you defend, if the attacker modified any attack dice, you may roll 1 additional defense die.",
-      "cost": 69
+      "cost": 69,
+      "ffg": 631,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg",
+      "image": null
     }
   ]
 }

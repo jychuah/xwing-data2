@@ -63,11 +63,7 @@
       "limited": 1,
       "cost": 76,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": ["dark"]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -162,7 +158,10 @@
       "hyperspace": true,
       "slots": ["Tech", "Torpedo", "Missile"],
       "ability": "While you are damaged, treat your initiative as 6.",
-      "cost": 57
+      "cost": 57,
+      "ffg": 643,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3b748daed26df2870694ab9dc679c5ee.jpg",
+      "image": null
     }
   ]
 }

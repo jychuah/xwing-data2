@@ -23,45 +23,23 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Lock"
     },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Jumpmaster.png",
   "pilots": [
@@ -101,10 +79,7 @@
           "source": "Coruscant Invitational 2018"
         }
       ],
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Cannon",
@@ -151,10 +126,7 @@
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
-      "charges": {
-        "value": 1,
-        "recovers": 0
-      },
+      "charges": { "value": 1, "recovers": 0 },
       "slots": [
         "Talent",
         "Cannon",
@@ -186,7 +158,10 @@
         "Title"
       ],
       "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.",
-      "cost": 38
+      "cost": 38,
+      "ffg": 637,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg",
+      "image": null
     }
   ]
 }
